@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Podkova;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+body{
+    user-select: none;
+}
+#app{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #A9FFA7;
+}
+#app h1{
+    font-size: 15vw;
+}
+#app h2{
+    font-size: 8vw;
+    font-weight: 300;
+}
+#app p{
+    font-size: 2vw;
+}
+#app .container-btn{
+    height: 20vh;
+    display: block;
+}
+.container-btn .btn-default
+{
+    background: #FFEE53;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 5vw;
+}
+#app .container-btn p{
+    margin: 100px;
+}
+
+.btn-inicio-func .btn-default
+{
+    background: #FFEE53;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 85px;
+}
+.btn-inicio-func .btn-default:first-child
+{
+    border-radius: 0px;
+    font-size: 60px;
+    padding: 30px 60px;
+    margin-right: 50px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.text-section{
+    background: #fff;
+    width: 500px;
+    height: 150px;
+}
+
+.scored{
+    background: #FFEE53;
+}
+
+#word{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+}
+
+
+#reset{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#win{
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    background: #fff;
+    width: 500px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.hide{
+    display: none;
+}
